@@ -1,0 +1,31 @@
+*{margin:0px;padding:0px;}
+html{border:0;}
+html,body{height:100%;}
+a,button,input[type=button],input[type=submit]{
+	cursor:pointer;/* firefox不支持han，解决：统一使用pointer */
+}
+/* 透明度 */
+.transparent{
+filter:alpha(opacity=60); /*支持 IE 浏览器*/
+-moz-opacity:0.6; /*支持 FireFox 浏览器*/
+opacity:0.6; /*支持 Chrome, Opera, Safari 等浏览器*/
+}
+/* 截字省略号... */
+.text{
+-o-text-overflow:ellipsis;/*支持 IE 浏览器*/
+text-overflow:ellipsis;
+white-space:nowrap;
+overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
